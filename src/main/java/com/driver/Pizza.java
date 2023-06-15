@@ -14,7 +14,7 @@ public class Pizza {
 
     private String bill;
 
-    Pizza(boolean isVeg){
+    public Pizza(boolean isVeg){
 
         if(isVeg){
             totalPrice = 300;
