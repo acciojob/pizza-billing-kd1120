@@ -19,10 +19,10 @@ public class Pizza {
 
     public Pizza(Boolean isVeg){
 
-            if(isVeg)
-                price = 300;
-            else
-                price = 400;
+        if(isVeg)
+            price = 300;
+        else
+            price = 400;
 
         this.toppingsPrice = 70;
         this.cheesePrice = 80;
