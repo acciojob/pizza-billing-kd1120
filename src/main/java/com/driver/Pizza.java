@@ -18,17 +18,12 @@ public class Pizza {
 
 
     public Pizza(Boolean isVeg){
-        if(size=="Regular"){
+
             if(isVeg)
                 price = 300;
             else
                 price = 400;
-        }else{ //Else if it is a large pizza
-            if (isVeg)
-                price = 300;
-            else
-                price = 400;
-        }
+
         this.toppingsPrice = 70;
         this.cheesePrice = 80;
         this.carryBagPrice = 20;
