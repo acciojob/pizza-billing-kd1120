@@ -30,7 +30,7 @@ public class Pizza {
 
         totalAmount = price;
 
-        bill = "Base Price of the pizza :" +price+"\n";
+        bill = "Base Price Of The Pizza:" +price+"\n";
         // your code goes here
 
     }
@@ -55,7 +55,7 @@ public class Pizza {
         if(!isToppingsAdded) {
             isToppingsAdded = true;
             totalAmount = totalAmount + toppingsPrice;
-            bill = bill + "Extra toppings added : " + toppingsPrice + "\n";
+            bill = bill + "Extra Toppings Added : " + toppingsPrice + "\n";
         }
     }
 
@@ -64,7 +64,7 @@ public class Pizza {
         if(!isCarryBagAdded) {
             isCarryBagAdded = true;
             totalAmount = totalAmount + carryBagPrice;
-            bill = bill + "Paper bag added : " + carryBagPrice + "\n";
+            bill = bill + "Paperbag Added: " + carryBagPrice + "\n";
         }
     }
 
@@ -72,7 +72,7 @@ public class Pizza {
 
         if(isBillGenerated == false){
             isBillGenerated = true;
-            bill = bill + "Total price: " + totalAmount + "\n";
+            bill = bill + "Total Price: " + totalAmount + "\n";
         }
         // your code goes here
         return this.bill;
